@@ -22,6 +22,7 @@
             "wildcardOrder" : 1
          }
       ],
+      "fullPath" : "/Common/waf_app2",
       "name" : "waf_app2",
       "parameters" : [
          {
