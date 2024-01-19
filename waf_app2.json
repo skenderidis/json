@@ -28,7 +28,7 @@
          {
             "level" : "global",
             "name" : "*",
-            "performStaging" : true
+            "performStaging" : false
          }
       ],
       "policy-builder-header" : {
