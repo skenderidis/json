@@ -1,0 +1,92 @@
+{
+   "policy" : {
+      "applicationLanguage" : "utf-8",
+      "caseInsensitive" : false,
+      "cookies" : [
+         {
+            "name" : "*",
+            "performStaging" : false,
+            "type" : "wildcard",
+            "wildcardOrder" : 1
+         }
+      ],
+      "description" : "Test WAF Policy",
+      "enablePassiveMode" : false,
+      "enforcementMode" : "blocking",
+      "filetypes" : [
+         {
+            "allowed" : true,
+            "name" : "*",
+            "performStaging" : false,
+            "type" : "wildcard",
+            "wildcardOrder" : 1
+         }
+      ],
+      "name" : "waf_app2",
+      "parameters" : [
+         {
+            "level" : "global",
+            "name" : "*",
+            "performStaging" : true
+         }
+      ],
+      "policy-builder-header" : {
+         "validHostNames" : false
+      },
+      "protocolIndependent" : false,
+      "redirection-protection" : {
+         "redirectionProtectionEnabled" : true
+      },
+      "softwareVersion" : "16.1.0",
+      "template" : {
+         "name" : "POLICY_TEMPLATE_FUNDAMENTAL"
+      },
+      "type" : "security",
+      "urls" : [
+         {
+            "isAllowed" : true,
+            "metacharsOnUrlCheck" : false,
+            "method" : "*",
+            "name" : "*",
+            "performStaging" : false,
+            "protocol" : "http",
+            "type" : "wildcard",
+            "wildcardIncludesSlash" : true,
+            "wildcardOrder" : 2
+         },
+         {
+            "isAllowed" : true,
+            "metacharsOnUrlCheck" : false,
+            "method" : "*",
+            "name" : "*",
+            "performStaging" : false,
+            "protocol" : "https",
+            "type" : "wildcard",
+            "wildcardIncludesSlash" : true,
+            "wildcardOrder" : 1
+         }
+      ],
+      "websocket-urls" : [
+         {
+            "isAllowed" : true,
+            "metacharsOnWebsocketUrlCheck" : false,
+            "name" : "*",
+            "performStaging" : false,
+            "protocol" : "ws",
+            "type" : "wildcard",
+            "wildcardIncludesSlash" : true,
+            "wildcardOrder" : 2
+         },
+         {
+            "isAllowed" : true,
+            "metacharsOnWebsocketUrlCheck" : false,
+            "name" : "*",
+            "performStaging" : false,
+            "protocol" : "wss",
+            "type" : "wildcard",
+            "wildcardIncludesSlash" : true,
+            "wildcardOrder" : 1
+         }
+      ]
+   }
+}
