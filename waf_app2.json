@@ -12,7 +12,7 @@
       ],
       "description" : "Test WAF Policy",
       "enablePassiveMode" : false,
-      "enforcementMode" : "blocking",
+      "enforcementMode" : "transparent",
       "filetypes" : [
          {
             "allowed" : true,
