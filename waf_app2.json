@@ -22,8 +22,8 @@
             "wildcardOrder" : 1
          }
       ],
-      "fullPath" : "/Tenant-A/waf_app2",
-      "name" : "waf_app2",
+      "fullPath" : "/Tenant-A/waf_app3",
+      "name" : "waf_app3",
       "parameters" : [
          {
             "level" : "global",
