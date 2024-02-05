@@ -22,7 +22,7 @@
             "wildcardOrder" : 1
          }
       ],
-      "fullPath" : "/Tenant-A/waf_app3",
+      "fullPath" : "/Common/waf_app3",
       "name" : "waf_app3",
       "parameters" : [
          {
