@@ -4,7 +4,7 @@
       "caseInsensitive" : false,
       "description" : "Test WAF Policy 2",
       "enablePassiveMode" : false,
-      "enforcementMode" : "transparent",
+      "enforcementMode" : "blocking",
       "fullPath" : "/Common/waf_app2",
       "name" : "waf_app2",
       "softwareVersion" : "16.1.0",
