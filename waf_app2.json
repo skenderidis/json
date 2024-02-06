@@ -2,7 +2,7 @@
    "policy" : {
       "applicationLanguage" : "utf-8",
       "caseInsensitive" : false,
-      "description" : "Test WAF Policy",
+      "description" : "Test WAF Policy 2",
       "enablePassiveMode" : false,
       "enforcementMode" : "blocking",
       "fullPath" : "/Common/waf_app2",
