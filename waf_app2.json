@@ -5,8 +5,8 @@
       "description" : "Test WAF Policy",
       "enablePassiveMode" : false,
       "enforcementMode" : "transparent",
-      "fullPath" : "/Common/waf_app3",
-      "name" : "waf_app3",
+      "fullPath" : "/Common/waf_app2",
+      "name" : "waf_app2",
       "softwareVersion" : "16.1.0",
       "template" : {
          "name" : "POLICY_TEMPLATE_FUNDAMENTAL"
