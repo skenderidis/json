@@ -5,7 +5,7 @@
       "description" : "Test WAF Policy 2",
       "enablePassiveMode" : false,
       "enforcementMode" : "transparent",
-      "fullPath" : "/Common/waf_app2",
+      "fullPath" : "/Tenant-A/waf_app2",
       "name" : "waf_app2",
       "softwareVersion" : "16.1.0",
       "template" : {
